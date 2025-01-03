@@ -36,3 +36,9 @@ The RC-Car project involves creating a remote-controlled car that can be operate
 
 ## Documentation
 The full project documentation, including system architecture, design methodology, implementation details, and potential future enhancements, is available in the provided PDF.
+
+---
+
+## Contact
+
+For any inquiries, please contact the project maintainer at [linkedin](https://www.linkedin.com/in/alfred-nagy-882445224/).
