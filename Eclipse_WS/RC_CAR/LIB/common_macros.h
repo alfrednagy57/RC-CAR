@@ -2,7 +2,7 @@
  ============================================================================
  File Name   : common_macros.h
  Module      : Common - Macros
- Author      : Ahmed Ali
+ Author      : Alfred Nagy
  Date        : 23 Sept 2023
  Description : Commonly used Macros
  ============================================================================

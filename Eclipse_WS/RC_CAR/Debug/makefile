@@ -36,17 +36,6 @@ endif
 
 -include ../makefile.defs
 
-OPTIONAL_TOOL_DEPS := \
-$(wildcard ../makefile.defs) \
-$(wildcard ../makefile.init) \
-$(wildcard ../makefile.targets) \
-
-
-BUILD_ARTIFACT_NAME := RC_CAR
-BUILD_ARTIFACT_EXTENSION := elf
-BUILD_ARTIFACT_PREFIX :=
-BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
-
 # Add inputs and outputs from these tool invocations to the build variables 
 LSS += \
 RC_CAR.lss \
@@ -59,32 +48,29 @@ sizedummy \
 
 
 # All Target
-all: main-build
-
-# Main-build Target
-main-build: RC_CAR.elf secondary-outputs
+all: RC_CAR.elf secondary-outputs
 
 # Tool invocations
-RC_CAR.elf: $(OBJS) $(USER_OBJS) makefile objects.mk $(OPTIONAL_TOOL_DEPS)
+RC_CAR.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: AVR C Linker'
 	avr-gcc -Wl,-Map,RC_CAR.map -mmcu=atmega32 -o "RC_CAR.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
-RC_CAR.lss: RC_CAR.elf makefile objects.mk $(OPTIONAL_TOOL_DEPS)
+RC_CAR.lss: RC_CAR.elf
 	@echo 'Invoking: AVR Create Extended Listing'
 	-avr-objdump -h -S RC_CAR.elf  >"RC_CAR.lss"
 	@echo 'Finished building: $@'
 	@echo ' '
 
-RC_CAR.hex: RC_CAR.elf makefile objects.mk $(OPTIONAL_TOOL_DEPS)
+RC_CAR.hex: RC_CAR.elf
 	@echo 'Create Flash image (ihex format)'
 	-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RC_CAR.elf  "RC_CAR.hex"
 	@echo 'Finished building: $@'
 	@echo ' '
 
-sizedummy: RC_CAR.elf makefile objects.mk $(OPTIONAL_TOOL_DEPS)
+sizedummy: RC_CAR.elf
 	@echo 'Invoking: Print Size'
 	-avr-size --format=avr --mcu=atmega32 RC_CAR.elf
 	@echo 'Finished building: $@'
@@ -97,6 +83,7 @@ clean:
 
 secondary-outputs: $(LSS) $(FLASH_IMAGE) $(SIZEDUMMY)
 
-.PHONY: all clean dependents main-build
+.PHONY: all clean dependents
+.SECONDARY:
 
 -include ../makefile.targets

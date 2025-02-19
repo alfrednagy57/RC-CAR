@@ -2,7 +2,7 @@
  ============================================================================
  Name        : ultrasonic_sensor.c
  Module Name : ULTRASONIC SENSORs
- Author      : Ahmed Ali
+ Author      : Alfred Nagy
  Date        : 12 Oct 2023
  Description : Source file file for the Ultrasonic Sensor driver
  ============================================================================

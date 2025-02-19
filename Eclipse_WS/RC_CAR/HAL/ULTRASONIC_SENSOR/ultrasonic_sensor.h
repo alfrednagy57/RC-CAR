@@ -2,7 +2,7 @@
  ============================================================================
  Name        : ultrasonic_sensor.h
  Module Name : ULTRASONIC SENSOR
- Author      : Ahmed Ali
+ Author      : Alfred Nagy
  Date        : 12 Oct 2023
  Description : Header file for the Ultrasonic Sensor driver
  ============================================================================

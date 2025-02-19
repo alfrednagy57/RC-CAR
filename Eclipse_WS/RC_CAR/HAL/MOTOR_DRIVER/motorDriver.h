@@ -2,7 +2,7 @@
  ============================================================================
  Name        : motorDriver.h
  Module Name : MOTOR DRIVER
- Author      : Ahmed Ali
+ Author      : Alfred Nagy
  Date        : 12 July 2024
  Description : Header file for the motor driver
  ============================================================================

@@ -2,7 +2,7 @@
  ============================================================================
  Name        : main.c
  Module Name : APP
- Author      : Ahmed Ali
+ Author      : Alfred Nagy
  Date        : 12 July 2024
  Description : The main function of project
  ============================================================================

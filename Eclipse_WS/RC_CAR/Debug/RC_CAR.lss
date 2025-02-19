@@ -9,27 +9,25 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, DATA
   2 .bss          00000009  0080016e  0080016e  00003138  2**0
                   ALLOC
-  3 .stab         000032ac  00000000  00000000  00003138  2**2
+  3 .debug_aranges 000003d8  00000000  00000000  00003138  2**0
                   CONTENTS, READONLY, DEBUGGING
-  4 .stabstr      00002aec  00000000  00000000  000063e4  2**0
+  4 .debug_pubnames 0000060f  00000000  00000000  00003510  2**0
                   CONTENTS, READONLY, DEBUGGING
-  5 .debug_aranges 000001a0  00000000  00000000  00008ed0  2**0
+  5 .debug_info   00003f4d  00000000  00000000  00003b1f  2**0
                   CONTENTS, READONLY, DEBUGGING
-  6 .debug_pubnames 000001f2  00000000  00000000  00009070  2**0
+  6 .debug_abbrev 00001b67  00000000  00000000  00007a6c  2**0
                   CONTENTS, READONLY, DEBUGGING
-  7 .debug_info   0000240b  00000000  00000000  00009262  2**0
+  7 .debug_line   000034ff  00000000  00000000  000095d3  2**0
                   CONTENTS, READONLY, DEBUGGING
-  8 .debug_abbrev 00001386  00000000  00000000  0000b66d  2**0
+  8 .debug_frame  00000510  00000000  00000000  0000cad4  2**2
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_line   000011d6  00000000  00000000  0000c9f3  2**0
+  9 .debug_str    00000d37  00000000  00000000  0000cfe4  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_frame  000001c0  00000000  00000000  0000dbcc  2**2
+ 10 .debug_loc    0000096e  00000000  00000000  0000dd1b  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_str    000002f6  00000000  00000000  0000dd8c  2**0
+ 11 .debug_macinfo 000147c5  00000000  00000000  0000e689  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_loc    0000096e  00000000  00000000  0000e082  2**0
-                  CONTENTS, READONLY, DEBUGGING
- 13 .debug_ranges 00000050  00000000  00000000  0000e9f0  2**0
+ 12 .debug_ranges 00000240  00000000  00000000  00022e4e  2**0
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:

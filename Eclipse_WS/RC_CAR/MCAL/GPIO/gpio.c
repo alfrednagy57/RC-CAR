@@ -2,7 +2,7 @@
  ============================================================================
  File Name   : gpio.c
  Module      : GPIO
- Author      : Ahmed Ali
+ Author      : Alfred Nagy
  Date        : 23 Sept 2023
  Description : Source file for the AVR GPIO driver
  ============================================================================

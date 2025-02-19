@@ -2,7 +2,7 @@
  ============================================================================
  File Name   : gpio.h
  Module      : GPIO
- Author      : Ahmed Ali
+ Author      : Alfred Nagy
  Date        : 23 Sept 2023
  Description : Header file for the AVR GPIO driver
  ============================================================================

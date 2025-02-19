@@ -2,7 +2,7 @@
  ============================================================================
  Name        : motor.c
  Module Name : MOTOR
- Author      : Ahmed Ali
+ Author      : Alfred Nagy
  Date        : 10 Oct 2023
  Description : Source file for the DC motor driver
  ============================================================================

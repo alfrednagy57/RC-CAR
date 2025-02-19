@@ -2,7 +2,7 @@
  ============================================================================
  Name        : bluetooth.h
  Module Name : BLUETOOTH
- Author      : Ahmed Ali
+ Author      : Alfred Nagy
  Date        : 12 July 2024
  Description : Source file for the bluetooth driver
  ============================================================================

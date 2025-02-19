@@ -2,7 +2,7 @@
  ============================================================================
  File Name   : gpio_private.h
  Module      : GPIO
- Author      : Ahmed Ali
+ Author      : Alfred Nagy
  Date        : 19 Sept 2023
  Description : Private file for the AVR GPIO driver
  ============================================================================

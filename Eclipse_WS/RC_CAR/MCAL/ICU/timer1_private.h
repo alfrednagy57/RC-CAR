@@ -2,7 +2,7 @@
  ============================================================================
  Name        : timer_private.h
  Module Name : TIMER
- Author      : Ahmed Ali
+ Author      : Alfred Nagy
  Date        : 8 Oct 2023
  Description : Private file for the AVR TIMER1 driver
  ============================================================================

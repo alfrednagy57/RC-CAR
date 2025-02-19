@@ -2,7 +2,7 @@
  ============================================================================
  Name        : motor.h
  Module Name : MOTOR
- Author      : Ahmed Ali
+ Author      : Alfred Nagy
  Date        : 10 Oct 2023
  Description : Header file for the DC motor driver
  ============================================================================

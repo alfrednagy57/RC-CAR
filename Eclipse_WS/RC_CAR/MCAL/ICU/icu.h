@@ -2,7 +2,7 @@
  ============================================================================
  File Name   : icu.h
  Module      : ICU
- Author      : Ahmed Ali
+ Author      : Alfred Nagy
  Date        : 8 oct 2023
  Description : Header file for the AVR ICU driver
  ============================================================================

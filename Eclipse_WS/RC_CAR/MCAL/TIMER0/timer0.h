@@ -2,7 +2,7 @@
  ============================================================================
  Name        : timer0.h
  Module Name : TIMER0
- Author      : Ahmed Ali
+ Author      : Alfred Nagy
  Date        : 25 Apr 2024
  Description : Header file for the AVR TIMER0 driver
  ============================================================================

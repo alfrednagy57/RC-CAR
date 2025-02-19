@@ -2,7 +2,7 @@
  ============================================================================
  File Name   : std_types.h
  Module      : Common - Platform Types Abstraction
- Author      : Ahmed Ali
+ Author      : Alfred Nagy
  Date        : 23 Sept 2023
  Description : Types for AVR
  ============================================================================

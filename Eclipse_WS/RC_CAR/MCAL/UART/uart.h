@@ -2,7 +2,7 @@
  ============================================================================
  Name        : uart.h
  Module Name : UART
- Author      : Ahmed Ali
+ Author      : Alfred Nagy
  Date        : 15 Oct 2024
  Description : Header file for the AVR UART driver
  ============================================================================
